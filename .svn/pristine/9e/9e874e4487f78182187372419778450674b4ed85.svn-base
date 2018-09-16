@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\ae6cb018c470bf711a6d8214b853680b63b8ee33\\output\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\ae6cb018c470bf711a6d8214b853680b63b8ee33\\output\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

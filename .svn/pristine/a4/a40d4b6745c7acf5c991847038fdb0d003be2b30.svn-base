@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Newtonsoft.Json.Linq;
+using Polly;
+using Polly.Retry;
+
+namespace WxUilt
+{
+    public  class Token
+    {
+        public Token(string Secret,string copid)
+        {
+            this.Secret = Secret;
+            this.Coropid = copid;
+        }
+        public String Coropid { get; set; }
+        /// <summary>
+        /// token 时长
+        /// </summary>
+        public int TimeLong { get; set; }
+        /// <summary>
+        /// 上次获取
+        /// </summary>
+        public DateTime LastTime { get; set; }
+
+        public string Access_token { get; set; }
+
+        public string Secret { get; set; }
+
+        private   void GetTokenAsync()
+        {
+            string url = string.Format( "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={0}&corpsecret={1}",this.Coropid, Secret);
+            var res=  Request.Get(url).Result;
+            var policy = RetryPolicy.Handle<Exception>().WaitAndRetry(3, retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), (ex, time) =>
+            {
+                ///错误日志
+            });
+            
+            if (res == null) throw new Exception("token 获取失败");
+            JObject obj = JObject.Parse(res);
+            
+            if (obj["errcode"].ToString().Equals("0"))
+            {
+                LastTime = DateTime.Now;
+                Access_token = obj["access_token"].ToString();
+                TimeLong = int.Parse(obj["expires_in"].ToString());
+            }
+        }
+
+        public static implicit operator string(Token tokens)
+        {
+            if (tokens.LastTime.Add(TimeSpan.FromSeconds(tokens.TimeLong)) < DateTime.Now)
+            {
+                tokens.GetTokenAsync();
+            }
+            return tokens.Access_token;
+        }
+    }
+
+    
+}

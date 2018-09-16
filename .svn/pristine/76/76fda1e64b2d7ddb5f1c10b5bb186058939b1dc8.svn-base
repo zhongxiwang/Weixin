@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

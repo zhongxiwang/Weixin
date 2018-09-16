@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Message.Model;
+using MessageService.Services;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+
+namespace MessageService.Controllers
+{
+    /// <summary>
+    /// 取得验证
+    /// </summary>
+    [Produces("application/json")]
+    [EnableCors("any")]
+    public class TicketController : Controller
+    {
+        public IConfiguration Config { get; set; }
+
+        public Token Tokens { get; set; }
+
+
+        public TicketController(IConfiguration config, Token token)
+        {
+            this.Config = config;
+            this.Tokens = token;
+            
+        }
+
+        /// <summary>
+        /// 取得js sdk验证令牌
+        /// </summary>
+        /// <param name="Name">程序名</param>
+        /// <param name="urls">当前页面的url</param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("Ticket/{Name:minlength(1)}")]
+        public string Ticket(string Name,string urls)
+        {
+            JsApiCache jat=new JsApiCache(Tokens.AddAndGet(Name));
+            var rest= jat.AddAndGet(Name);
+            rest.Url = urls;
+            
+            return  rest;
+        }
+
+        /// <summary>
+        /// 获取code
+        /// </summary>
+        /// <param name="Name">程序名</param>
+        /// <param name="scope">snsapi_base：静默授权，可获取成员的的基础信息（UserId与DeviceId）；snsapi_userinfo：静默授权，可获取成员的详细信息，但不包含手机、邮箱；snsapi_privateinfo：手动授权，可获取成员的详细信息，包含手机、邮箱</param>
+        /// <param name="url">重定向url</param>
+        /// <param name="par">重定向时带上的参数</param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("TicketCode/{Name:minlength(1)}")]
+        public string TicketCode(string Name,string scope,string rurl,string par=null)
+        {
+            string appid = this.Config["CommpanyInfo:CorpID"];
+            string proid = this.Config[Name + ":agnetid"];
+            string url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid="+appid+"&redirect_uri="+rurl+"&response_type=code&scope="+scope+"&agentid="+proid+"&state="+par+"#wechat_redirect";
+            return url;
+        }
+
+        /// <summary>
+        /// 成员基础信息
+        /// </summary>
+        /// <param name="Name">程序名</param>
+        /// <param name="Code">url上的Code参数</param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("UserTicket/{Name:minlength(1)}")]
+        public string UserTicket(string Name,string Code)
+        {
+            
+            var token= this.Tokens.AddAndGet(Name);
+            string url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token="+token+"&code="+Code;
+            var json= WxUilt.Request.Get(url).Result;
+            try
+            {
+                new MyException(json,true);
+            }catch(Exception e)
+            {
+                return e.Message;
+            }
+            return json;
+        }
+    }
+}

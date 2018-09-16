@@ -1,0 +1,146 @@
+﻿{
+  "Redis": {
+    "WriteServerList": "127.0.0.1:6379",
+    "ReadServerList": "127.0.0.1:6379",
+    "MaxWritePoolSize": "60",
+    "MaxReadPoolSize": "60",
+    "AutoStart": "true",
+    "LocalCacheTime": "180",
+    "RecordeLog": "false"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "Debug": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    }
+  },
+  "EventBusRetryCount": 5,
+  "EventBusConnection": "localhost",
+  "EventBusUserName": "guest",
+  "EventBusPassword": "guest",
+  "SubscriptionClientName": "MessageService",
+  //"test": {
+  //  "SecRet": "ZyZ-NO5bI5Mm-VTFXTXbsfhYJMohj7-oz91_la1TDrQ",
+  //  "agnetid": "1000002"
+  //},
+  //"CommpanyInfo": {
+  //  "CorpID": "ww086e61d21d6452c8",
+  //  "SecRet": "4xT7cNvc2YpQ-fKpsYZM-s6Tiebw4KOcLj5Hv8pmemw",
+  //  "UrlVerificationToken": "XUveVvnXG8",
+  //  "EncodingAESKey": "7g9DicdtF3kjEoLdrhpOXcDY7JqFVoT3h221V1Ny9Lv"
+  //}
+  "dctb": {
+    "SecRet": "4LZyJtdiHGJ7upLnrkTarcUrpmr-m-kn2Yjg_TT2s-o",
+    "agnetid": "1000012"
+  },
+  "gzgf": {
+    "SecRet": "LGMOJSEaSqWXhiG_Xzn7LUtuO-jkeFjEi8qRClOyf3M",
+    "agnetid": "1000013"
+  },
+  "mrcp": {
+    "SecRet": "nzFN2HgZXZJygUTp14WBXs-IzvGKlrtf3KY1LVipUJQ",
+    "agnetid": "1000011"
+  },
+  "gzjb": {
+    "SecRet": "3ETvVGVUWi2fsu0DI5f6Ov5IIOpS2FkHqlwO2pzDkSY",
+    "agnetid": "1000014"
+  },
+  "gwbl": {
+    "SecRet": "MQb79OGor9Hnxblgem5RAub7k1TARHV_LU2TSNGAXbU",
+    "agnetid": "1000015"
+  },
+  "gwcx": {
+    "SecRet": "2w1Go8_rE_aTnh3Kn_hi2kf5B_mOZLgU9u8W4rM_Rzk",
+    "agnetid": "1000016"
+  },
+
+  "gwfb": {
+    "SecRet": "KVR4QJOZJLCwptE0-YlrBrLbbHZgKjcOYWgCHrOVgik",
+    "agnetid": "1000017"
+  },
+  "gqtd": {
+    "SecRet": "fIcLj-u_NkRpjMPZKyQCcOYv6wKrtKP9m8aBHEdGqVM",
+    "agnetid": "1000018"
+  },
+  "hyjy": {
+    "SecRet": "8VBBceyfVlz5pGDEhdHWzQRZ7Fb1uOmGRv27JvNcgZk",
+    "agnetid": "1000019"
+  },
+  "jgsw": {
+    "SecRet": "rJV-KfZBc4tOy8tRUlFaaxWYRP1jf4vDIYwTUQbKsXo",
+    "agnetid": "1000020"
+  },
+  "ljcy": {
+    "SecRet": "unFXSBGP9-lZeJ65HfduEbQItWe7HWaKRAHolYOOVYM",
+    "agnetid": "1000022"
+  },
+  "ldyzgzap": {
+    "SecRet": "eBJ5ayemiD3K_bPOhhdB8g0qqKyEj6XtbYTqJeoK8t4",
+    "agnetid": "1000023"
+  },
+  "bgxzs": {
+    "SecRet": "yVV_mWa2bSFuZBRzWdSSqu7p4a5VTtwz360S81V0RFc",
+    "agnetid": "1000024"
+  },
+  "gbrm": {
+    "SecRet": "VqIpfF3Q-1OQ7_Vhe0W8JIJXeURWaj4RNO8EhWKyllQ",
+    "agnetid": "1000025"
+  },
+  "ywsp": {
+    "SecRet": "o6CrRdufafdVVxJ8bUeJuOMu4S98qdlSbBgPUT7FgwY",
+    "agnetid": "1000026"
+  },
+  "sjdzt": {
+    "SecRet": "VbMlMSM1wo2zQ_szZZaBmYn91TGRFU6aIZXvcJnOjeE",
+    "agnetid": "1000027"
+  },
+  "sphy": {
+    "SecRet": "y5YKJ6a81iS0ttH2bPmVGl5iGf4fw-O6oP_rZR07tFQ",
+    "agnetid": "1000028"
+  },
+  "tzgg": {
+    "SecRet": "G57Zga_0vkWhQFKlI7p4tStK3YmZWjnNK2-bYhHtvG8",
+    "agnetid": "1000029"
+  },
+  "wwmh": {
+    "SecRet": "bi3oJoqjWn2KDIrL9NCxWbEnrUd1wi3IMbDkGX9TN3Q",
+    "agnetid": "1000030"
+  },
+  "wjdc": {
+    "SecRet": "ZXSKVv1c86tJXnbAqueR-8Mj3bJUaA45S_9X8EPSsKg",
+    "agnetid": "1000031"
+  },
+  "wdrc": {
+    "SecRet": "TBQLGiwtJwEY9giVfOeaR6KyJzmnOJLGAfPZUaD_L10",
+    "agnetid": "1000032"
+  },
+  "xwzx": {
+    "SecRet": "ykec3ZlyXlR-v0Wu_4SF6cc3f7moeJXyRdFKwE42faY",
+    "agnetid": "1000033"
+  },
+  "zsk": {
+    "SecRet": "_y8Zp2cJUAUdEdS1cnFXgnRR9yljWpCK4VbPeqVrGbs",
+    "agnetid": "1000034"
+  },
+  "jgdj": {
+    "SecRet": "MRUPNWT33L9p3ajNUozSL9OnpDTg8eJvY5pMDex_s3c",
+    "agnetid": "1000035"
+  },
+  "zbb": {
+    "SecRet": "OQ-FDOBwdCtLtyZ94u-qUolQlphA8P9qBV-w2U_Eb6A",
+    "agnetid": "1000036"
+  },
+  "CommpanyInfo": {
+    "CorpID": "ww72a47ace58e356b4",
+    "SecRet": "WWSS-x9zd1V2lmpKCSLyfGwcDU-BsLqFDR-4vw-2Ydo",
+    "UrlVerificationToken": "XUveVvnXG8",
+    "EncodingAESKey": "7g9DicdtF3kjEoLdrhpOXcDY7JqFVoT3h221V1Ny9Lv"
+  }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\BaiduTraceSDK_v3_0_7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="d70f342b295249638d63398fd67cbd09ee325dbe">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduTraceSDK_v3_0_7_552492f21e2edb16075978a07acf739013287d60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="d24952a269cf35cc7f2e3b47a5840f8700903a72">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_284a3b153a09f04c81797583d37f91c3235a6265\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="612846c9857077a039b533718f72db3bc041d389">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_964dad0fdd3586eaeea34f57ca2b7bdca289d52d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6bd39d46f040050b8c91368b50eee065585eeb5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\okhttp-3.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.8.1_d58e7f9a5bcc4e07eeb7e7d83a25b0547543c2ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\bos-android-sdk-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="1e746cc22bdf9e4a037d103d06b2c01dfb02d07f">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\bos-android-sdk-1.0.3_801f25c9baeb6e70996959d45757d93f1fc28c57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="aea15ef293942a27b26f52c31389932e9a2ab3b9">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4bf54bbc01a28ba1d46fc08df4105158a877609b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\android\zhifa\app\libs\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\android\zhifa\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.13.0_499081c89eff1dc5407c9b02c0e3684a81d85688\classes.dex" />
+    </item>
+
+</items>

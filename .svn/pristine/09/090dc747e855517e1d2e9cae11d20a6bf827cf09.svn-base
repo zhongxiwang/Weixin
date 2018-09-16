@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_tab_bg.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\bottom_tab_bg.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_marke.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_marke.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_en.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_en.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_focused.xml",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\bg_edittext_focused.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ground_overlay.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\ground_overlay.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pre_down_.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\pre_down_.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markd.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markd.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markg.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markg.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markj.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markj.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_on.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\button_on.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markb.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markb.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_geo.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_geo.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_gcoding.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_gcoding.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next_.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\next_.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\next_down_.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\next_down_.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_right.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup_right.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_marka.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_marka.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_style.xml",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\button_style.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_left.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup_left.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markh.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markh.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_down.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\button_down.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_down.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup_down.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markf.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markf.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_normal.xml",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\bg_edittext_normal.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_side.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup_side.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_marki.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_marki.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\zhong\\.android\\build-cache\\559b4369d2b67f04337d9bc1654791d41cd3a862\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pre_.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\pre_.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_middle.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\popup_middle.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_markc.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_markc.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\glass.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\glass.png"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_cursor.xml",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\edit_cursor.xml"
+    },
+    {
+        "merged": "E:\\android\\zhifa\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_st.png",
+        "source": "E:\\android\\zhifa\\app\\src\\main\\res\\drawable\\icon_st.png"
+    }
+]

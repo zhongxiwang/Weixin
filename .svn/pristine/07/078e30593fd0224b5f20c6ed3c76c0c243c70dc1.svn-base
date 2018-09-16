@@ -1,0 +1,140 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:3:11-45
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:8:5-97
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:10:5-95
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:12:5-92
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:14:5-95
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:16:5-92
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:18:5-91
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:20:5-97
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.INTERNET
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:24:5-100
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:24:22-81
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:26:5-105
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:26:22-86
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:28:5-111
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:28:22-92
+application
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:32:5-58:19
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\zhong\.android\build-cache\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\output\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\zhong\.android\build-cache\b6e52e8ab19a3d65dd5adb2a209a9c5b39a5ed21\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\zhong\.android\build-cache\d6ac3529a46130cb4443a1e8d29923f10223e267\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:35:13-45
+	android:supportsRtl
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:37:13-39
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\zhong\.android\build-cache\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\output\AndroidManifest.xml:22:18-91
+	android:roundIcon
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:36:13-58
+	android:allowBackup
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:33:13-39
+	android:icon
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:34:13-47
+	android:theme
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:38:13-44
+activity#com.example.zhongs.zhifa.MainActivity
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:40:9-46:20
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:40:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:41:13-45:29
+action#android.intent.action.MAIN
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:44:27-74
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:49:9-51:68
+	android:value
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:51:17-65
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:50:17-56
+service#com.baidu.trace.LBSTraceService
+ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:52:9-56:19
+	android:enabled
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:54:17-39
+	android:process
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:55:17-42
+	android:name
+		ADDED from E:\android\zhifa\app\src\main\AndroidManifest.xml:53:17-63
+uses-sdk
+INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\zhong\.android\build-cache\559b4369d2b67f04337d9bc1654791d41cd3a862\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\zhong\.android\build-cache\baf44bdf22eaccd67f35985fb7ac028a2f8b91c1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\zhong\.android\build-cache\04298f5d2bc8e55a9a8b3ea01aab5d43632c850c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\zhong\.android\build-cache\cbec445fa9fb6d74658a71c278e2c98e31604820\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\zhong\.android\build-cache\731ed72841cc97f4688a396b824c574d666e9ad8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\zhong\.android\build-cache\36ce1dcfb77104eb23fff940d7ae9c169164c4ed\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\zhong\.android\build-cache\59fa9f528a3d8268b8ca4fccb554e0628d77993d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\zhong\.android\build-cache\12b83f89b8f0216bb795b5529977f78e2ad02500\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\zhong\.android\build-cache\896ecca6d27ec040c6b61628173d26641da83835\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\zhong\.android\build-cache\4ffb89b79f0a75758fb5726b70d82e49b9e2de03\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\zhong\.android\build-cache\980c37ff66c8db2355cd671c1965f3049f8be6f6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\zhong\.android\build-cache\186cb9d70a1b383cec3bb76f6232329dad752e00\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\zhong\.android\build-cache\8b785373e749b90491ce264274de012c3f669611\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\zhong\.android\build-cache\1063b23b0d56f2f9c5b9ba21cd8c18eb93b6fe41\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\zhong\.android\build-cache\31ae0d0643f6c030674ab7180c4290c7d0ca8cef\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\zhong\.android\build-cache\6f298037f7f37dcdd74bb23b8f3d1941e3d60421\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\zhong\.android\build-cache\15fb64b015301586b2d8a4834777c4d17cbfe5ca\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\zhong\.android\build-cache\d3aa6dd65072daea3f6c9ca12917f88c99b8e3a2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\zhong\.android\build-cache\4f8e0c34832122ec52e8f6e76cb6979bc0f04bbe\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\zhong\.android\build-cache\a879add625e8d8101a4c0798d566070c4864024b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\zhong\.android\build-cache\56210c0abf9be09f4c47e81b23f9a036cd30a033\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\zhong\.android\build-cache\6a0a8798d4b0f44ffadddd91f35ade9257c86dc1\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\zhong\.android\build-cache\be8ba9964cb4f5d4c1d80e59d12a2ec9a6957b49\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\zhong\.android\build-cache\b6e52e8ab19a3d65dd5adb2a209a9c5b39a5ed21\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\zhong\.android\build-cache\153fac720335c2a3825fafeb77405a615a6bd2c6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\zhong\.android\build-cache\d6ac3529a46130cb4443a1e8d29923f10223e267\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android\zhifa\app\src\main\AndroidManifest.xml
