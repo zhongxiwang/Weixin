@@ -1,0 +1,193 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using DataBase.Redis;
+using DataMsgBus.MessageBus;
+using EventBus;
+using EventBus.Abstractions;
+using EventBusRabbitMQ;
+using log4net;
+using log4net.Config;
+using log4net.Repository;
+using MessageService.IntegrationEvents.Events;
+using MessageService.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Cors.Internal;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using RabbitMQ.Client;
+using Swashbuckle.AspNetCore;
+using Swashbuckle.AspNetCore.Swagger;
+
+namespace MessageService
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+
+            ///注册日志
+            repository = LogManager.CreateRepository("NETCoreRepository");
+            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
+
+        }
+
+        public IConfiguration Configuration { get; }
+
+        public static ILoggerRepository repository { get; set; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public IServiceProvider ConfigureServices(IServiceCollection services)
+        {
+            services.AddMvc(options=>
+            {
+                options.Filters.Add(new CorsAuthorizationFilterFactory("AllowSpecificOrigin"));
+
+            });
+
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("any",
+                 builder =>
+                 {
+                     builder.AllowAnyOrigin().AllowCredentials();
+                 });
+            });
+            ///EventBus
+            RegisterEventBus(services);
+            services.AddSingleton<IRabbitMQPersistentConnection>(sp =>
+            {
+               
+                var factory = new ConnectionFactory()
+                {
+                    HostName = Configuration["EventBusConnection"]
+                };
+
+                if (!string.IsNullOrEmpty(Configuration["EventBusUserName"]))
+                {
+                    factory.UserName = Configuration["EventBusUserName"];
+                }
+
+                if (!string.IsNullOrEmpty(Configuration["EventBusPassword"]))
+                {
+                    factory.Password = Configuration["EventBusPassword"];
+                }
+
+                var retryCount = 5;
+                if (!string.IsNullOrEmpty(Configuration["EventBusRetryCount"]))
+                {
+                    retryCount = int.Parse(Configuration["EventBusRetryCount"]);
+                }
+
+                return new DefaultRabbitMQPersistentConnection(factory, retryCount);
+            });
+            RedisCache.redisConfigInfo = new RedisConfigInfo(this.Configuration);
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "WxChat API",
+                    Description = "微信api文档",
+                    TermsOfService = "None",
+                    Contact = new Contact
+                    {
+                        Name = "antu",
+                        Email = string.Empty,
+                        Url = ""
+                    },
+                    License = new License
+                    {
+                        Name = "许可证名字",
+                        Url = ""
+                    }
+                });
+
+                // 为 Swagger JSON and UI设置xml文档注释路径
+                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
+                var xmlPath = Path.Combine(basePath, "MessageService.xml");
+                options.IncludeXmlComments(xmlPath);
+
+            });
+
+            
+            services.AddSingleton<RequestEvent>();
+            services.AddSingleton<Request>();
+            services.AddSingleton<Token>();
+            
+            
+            var container = new ContainerBuilder();
+            container.Populate(services);
+            return new AutofacServiceProvider(container.Build());
+
+        }
+
+        
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        {
+            //EventBus
+            ConfigureEventBus(app);
+
+            //var log = LogManager.GetLogger(repository.Name, typeof(Startup));
+            //log.Info("info");
+
+            var pathBase = Configuration["PATH_BASE"];
+            app.UseSwagger()
+              .UseSwaggerUI(c =>
+              {
+                  c.SwaggerEndpoint($"{ (!string.IsNullOrEmpty(pathBase) ? pathBase : string.Empty) }/swagger/v1/swagger.json", "MessageService");
+
+              });
+
+            app.UseCors("any");
+
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            app.UseMvc();
+        }
+        private void RegisterEventBus(IServiceCollection services)
+        {
+            var subscriptionClientName = Configuration["SubscriptionClientName"];
+
+                services.AddSingleton<IEventBus, EventBusRabbitMQ.EventBusRabbitMQ>(sp =>
+                {
+                    var rabbitMQPersistentConnection = sp.GetRequiredService<IRabbitMQPersistentConnection>();
+                    var iLifetimeScope = sp.GetRequiredService<ILifetimeScope>();
+                    var logger = sp.GetRequiredService<ILogger<EventBusRabbitMQ.EventBusRabbitMQ>>();
+                    var eventBusSubcriptionsManager = sp.GetRequiredService<IEventBusSubscriptionsManager>();
+
+                    var retryCount = 5;
+                    if (!string.IsNullOrEmpty(Configuration["EventBusRetryCount"]))
+                    {
+                        retryCount = int.Parse(Configuration["EventBusRetryCount"]);
+                    }
+
+                    return new EventBusRabbitMQ.EventBusRabbitMQ(rabbitMQPersistentConnection, iLifetimeScope, eventBusSubcriptionsManager, subscriptionClientName, retryCount);
+                });
+
+
+                services.AddSingleton<IEventBusSubscriptionsManager, InMemoryEventBusSubscriptionsManager>();
+
+            
+    
+        }
+        protected virtual void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<Request, RequestEvent>();
+           
+        }
+    }
+}

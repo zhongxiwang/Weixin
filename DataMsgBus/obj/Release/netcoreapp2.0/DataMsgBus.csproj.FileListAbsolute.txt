@@ -1,0 +1,12 @@
+E:\WeiXin\DataMsgBus\bin\Release\netcoreapp2.0\DataMsgBus.deps.json
+E:\WeiXin\DataMsgBus\bin\Release\netcoreapp2.0\DataMsgBus.dll
+E:\WeiXin\DataMsgBus\bin\Release\netcoreapp2.0\DataMsgBus.pdb
+E:\WeiXin\DataMsgBus\bin\Release\netcoreapp2.0\IEventBus.dll
+E:\WeiXin\DataMsgBus\bin\Release\netcoreapp2.0\IEventBus.pdb
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.csprojAssemblyReference.cache
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.csproj.CoreCompileInputs.cache
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.AssemblyInfoInputs.cache
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.AssemblyInfo.cs
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.csproj.CopyComplete
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.dll
+E:\WeiXin\DataMsgBus\obj\Release\netcoreapp2.0\DataMsgBus.pdb

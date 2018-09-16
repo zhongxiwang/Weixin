@@ -1,0 +1,9 @@
+E:\WeiXin\WxUilt\bin\Debug\netcoreapp2.0\WxUilt.deps.json
+E:\WeiXin\WxUilt\bin\Debug\netcoreapp2.0\WxUilt.dll
+E:\WeiXin\WxUilt\bin\Debug\netcoreapp2.0\WxUilt.pdb
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.csprojAssemblyReference.cache
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.csproj.CoreCompileInputs.cache
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.AssemblyInfoInputs.cache
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.AssemblyInfo.cs
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.dll
+E:\WeiXin\WxUilt\obj\Debug\netcoreapp2.0\WxUilt.pdb

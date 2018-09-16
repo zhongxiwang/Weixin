@@ -1,0 +1,12 @@
+E:\WeiXin\EventBusRabbitMQ\bin\Release\netcoreapp2.0\EventBusRabbitMQ.deps.json
+E:\WeiXin\EventBusRabbitMQ\bin\Release\netcoreapp2.0\EventBusRabbitMQ.dll
+E:\WeiXin\EventBusRabbitMQ\bin\Release\netcoreapp2.0\EventBusRabbitMQ.pdb
+E:\WeiXin\EventBusRabbitMQ\bin\Release\netcoreapp2.0\IEventBus.dll
+E:\WeiXin\EventBusRabbitMQ\bin\Release\netcoreapp2.0\IEventBus.pdb
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.csprojAssemblyReference.cache
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.csproj.CoreCompileInputs.cache
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.AssemblyInfoInputs.cache
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.AssemblyInfo.cs
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.csproj.CopyComplete
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.dll
+E:\WeiXin\EventBusRabbitMQ\obj\Release\netcoreapp2.0\EventBusRabbitMQ.pdb

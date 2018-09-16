@@ -1,0 +1,9 @@
+E:\WeiXin\IEventBus\bin\Release\netcoreapp2.0\IEventBus.deps.json
+E:\WeiXin\IEventBus\bin\Release\netcoreapp2.0\IEventBus.dll
+E:\WeiXin\IEventBus\bin\Release\netcoreapp2.0\IEventBus.pdb
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.csprojAssemblyReference.cache
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.csproj.CoreCompileInputs.cache
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.AssemblyInfoInputs.cache
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.AssemblyInfo.cs
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.dll
+E:\WeiXin\IEventBus\obj\Release\netcoreapp2.0\IEventBus.pdb

@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MessageService</name>
+    </assembly>
+    <members>
+        <member name="T:MessageService.Controllers.AppliactionController">
+            <summary>
+            应用程序获取
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.AppliactionController.Get(System.String)">
+            <summary>
+            得到应用程序信息
+            </summary>
+            <param name="Name">程序名</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.AppliactionController.Getlist">
+            <summary>
+            程序列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.AppliactionController.Put(System.String,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            更新程序信息
+            </summary>
+            <param name="Name"></param>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MessageService.Controllers.DepartmentController">
+            <summary>
+            部门管理
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.DepartmentController.Get(System.String)">
+            <summary>
+            取得部门信息
+            </summary>
+            <param name="id">部门id</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.DepartmentController.Post(Message.Model.Department)">
+            <summary>
+            添加部门
+            </summary>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.DepartmentController.Put(System.String,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            更新部门信息
+            </summary>
+            <param name="id"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.DepartmentController.delete(System.String)">
+            <summary>
+            删除部门（注：不能删除根部门；不能删除含有子部门、成员的部门）
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:MessageService.Controllers.FileUpLoadController">
+            <summary>
+            文件上传
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.FileUpLoadController.UploadTempFile(System.String,System.Collections.Generic.IList{Microsoft.AspNetCore.Http.IFormFile})">
+             <summary>
+             上传临时图片，并返回临时id
+             媒体文件类型，分别有图片（image）、语音（voice）、视频（video），普通文件（file）
+             图片（image）：2MB，支持JPG,PNG格式
+            语音（voice） ：2MB，播放长度不超过60s，仅支持AMR格式
+            视频（video） ：10MB，支持MP4格式
+            普通文件（file）：20MB
+             </summary>
+             <param name="Type">image,voice,video,file</param>
+             <param name="files"></param>
+        </member>
+        <member name="M:MessageService.Controllers.FileUpLoadController.UploadImage(System.Collections.Generic.IList{Microsoft.AspNetCore.Http.IFormFile})">
+            <summary>
+            上传永久图片并返回图片url
+            </summary>
+            <param name="files"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MessageService.Controllers.MenumController">
+            <summary>
+            菜单
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.MenumController.post(System.String,System.String)">
+            <summary>
+            创建自定义菜单
+            </summary>
+            <param name="agentid">程序AgentId</param>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.MenumController.get(System.String)">
+            <summary>
+            获取应用菜单
+            </summary>
+            <param name="agentid">程序AgentId</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.MenumController.delete(System.String)">
+            <summary>
+            删除菜单
+            </summary>
+            <param name="agentid">程序AgentId</param>
+            <returns></returns>
+        </member>
+        <member name="T:MessageService.Controllers.ProgramController">
+            <summary>
+            发送消息
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.ProgramController.Post(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            发送消息
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="value">消息体</param>
+            <param name="time">延迟发送</param>
+            <param name="userlist">用户列表，默认所有人</param>
+        </member>
+        <member name="M:MessageService.Controllers.ProgramController.Put(System.String,System.Object)">
+            <summary>
+            发送消息，自定义报文体
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="value"></param>
+        </member>
+        <member name="M:MessageService.Controllers.ProgramController.CurrencyMessageAsync(System.String,System.String,Newtonsoft.Json.Linq.JObject,System.Int32,System.String)">
+            <summary>
+            发送消息
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="Type">消息类型</param>
+            <param name="Json">简要报文体</param>
+            <param name="time">等待多少秒</param>
+            <param name="userlist">用户列表</param>
+        </member>
+        <member name="T:MessageService.Controllers.TagController">
+            <summary>
+            添加标签
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.TagController.Post(System.String)">
+            <summary>
+            创建标签
+            </summary>
+            <param name="tag">消息体</param>
+            <returns></returns>
+        </member>
+        <member name="T:MessageService.Controllers.TicketController">
+            <summary>
+            取得验证
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.TicketController.Ticket(System.String,System.String)">
+            <summary>
+            取得js sdk验证令牌
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="urls">当前页面的url</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.TicketController.TicketCode(System.String,System.String,System.String,System.String)">
+            <summary>
+            获取code
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="scope">snsapi_base：静默授权，可获取成员的的基础信息（UserId与DeviceId）；snsapi_userinfo：静默授权，可获取成员的详细信息，但不包含手机、邮箱；snsapi_privateinfo：手动授权，可获取成员的详细信息，包含手机、邮箱</param>
+            <param name="url">重定向url</param>
+            <param name="par">重定向时带上的参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.TicketController.UserTicket(System.String,System.String)">
+            <summary>
+            成员基础信息
+            </summary>
+            <param name="Name">程序名</param>
+            <param name="Code">url上的Code参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.Post(System.String,System.Int32[],System.String,System.Int32,System.String,System.String)">
+            <summary>
+            添加用户
+            </summary>
+            <param name="username">用户名</param>
+            <param name="department">部门id列表</param>
+            <param name="posi">身份</param>
+            <param name="sex">性别</param>
+            <param name="moblie">手机号码</param>
+            <param name="email">邮箱</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.Post(Message.Model.User)">
+            <summary>
+            自定义添加用户
+            </summary>
+            <param name="json"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.deletem(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            批量删除数据
+            </summary>
+            <param name="json">{"useridlist": ["zhangsan", "lisi"] }</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.Get(System.String,System.String)">
+            <summary>
+            通过user_ticket获取用户信息
+            </summary>
+            <param name="Name"></param>
+            <param name="user_ticket"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.GetDepartmentUser(System.Int32,System.Int32)">
+            <summary>
+            获取部门成员
+            </summary>
+            <param name="deparment_id">获取的部门id</param>
+            <param name="fetch_child">1/0：是否递归获取子部门下面的成员</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.GetDepartmentUserInfo(System.Int32,System.Int32)">
+            <summary>
+            获取部门成员
+            </summary>
+            <param name="deparment_id">获取的部门id</param>
+            <param name="fetch_child">1/0：是否递归获取子部门下面的成员</param>
+            <returns></returns>
+        </member>
+        <member name="M:MessageService.Controllers.VerificationController.Get">
+            <summary>
+            验证消息
+            </summary>
+            <param name="name">程序名</param>
+            <returns></returns>
+        </member>
+        <member name="P:MessageService.Model.PassiveMsgModel.ToUserName">
+            <summary>
+            接收用户
+            </summary>
+        </member>
+        <member name="P:MessageService.Model.PassiveMsgModel.FromUserName">
+            <summary>
+            发送用户
+            </summary>
+        </member>
+        <member name="M:MessageService.Services.JsApiCache.Remove(System.String)">
+            <summary>
+            删除
+            </summary>
+            <param name="Name"></param>
+        </member>
+        <member name="P:MessageService.Services.JsApiTicket.TimeLong">
+            <summary>
+            token 时长
+            </summary>
+        </member>
+        <member name="P:MessageService.Services.JsApiTicket.LastTime">
+            <summary>
+            上次获取
+            </summary>
+        </member>
+        <!-- 对于成员“P:Message.Model.Department.name”忽略有格式错误的 XML 注释 -->
+        <member name="P:Message.Model.Department.parentid">
+            <summary>
+            是	父部门id，32位整型
+            </summary>
+        </member>
+        <member name="P:Message.Model.Department.order">
+            <summary>
+            否	在父部门中的次序值。order值大的排序靠前。有效的值范围是[0, 2^32)
+            </summary>
+        </member>
+        <member name="P:Message.Model.Department.id">
+            <summary>
+            部门id，32位整型，指定时必须大于1。若不填该参数，将自动生成id
+            </summary>
+        </member>
+        <member name="P:Message.Model.Foreign.type">
+            <summary>
+            	属性类型: 0-本文 1-网页 2-小程序
+            	必填
+            </summary>
+        </member>
+        <member name="P:Message.Model.Foreign.name">
+            <summary>
+            属性名称： 需要先确保在管理端有创建改属性，否则会忽略
+            必填
+            </summary>
+        </member>
+        <member name="T:Message.Model.ForeignText">
+            <summary>
+            成员对外信息
+            </summary>
+        </member>
+        <member name="P:Message.Model.ForeignText.text">
+            <summary>
+            文本类型的属性
+            type为0时必填
+            </summary>
+        </member>
+        <member name="T:Message.Model.Message">
+            <summary>
+            文本消息
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.touser">
+            <summary>
+            成员ID列表（消息接收者，多个接收者用‘|’分隔，最多支持1000个）。
+            特殊情况：指定为@all，则向该企业应用的全部成员发送
+            touser、toparty、totag不能同时为空;
+            否必须
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.toparty">
+            <summary>
+            部门ID列表，多个接收者用‘|’分隔，最多支持100个。
+            当touser为@all时忽略本参数
+            否必须
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.totag">
+            <summary>
+            标签ID列表，多个接收者用‘|’分隔，最多支持100个。
+            当touser为@all时忽略本参数
+            否必须
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.msgtype">
+            <summary>
+            消息类型，此时固定为：text
+            必须
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.agentid">
+            <summary>
+            企业应用的id，整型。可在应用的设置页面查看
+            必须
+            </summary>
+        </member>
+        <member name="P:Message.Model.Message.safe">
+            <summary>
+            消息内容，最长不超过2048个字节
+            其中text参数的content字段可以支持换行、以及A标签，即可打开自定义的网页
+            (注意：换行符请用转义过的\n)
+            必须
+            </summary>
+            <summary>
+            表示是否是保密消息，0表示否，1表示是，默认0
+            必须
+            </summary>
+        </member>
+        <member name="M:Message.Model.Message.CreateDefaultMessage(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            创建一个默认消息体
+            </summary>
+            <param name="agenid">程序id</param>
+            <param name="userlist">接收用户列表，默认所有人</param>
+            <param name="safe">是否加密（0，1），默认不加班</param>
+            <param name="msgtp">消息类型，默认text</param>
+            <returns></returns>
+        </member>
+        <member name="M:Message.Model.Message.CreateDepartMessage(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            给制定部门发送消息
+            </summary>
+            <param name="agenid"></param>
+            <param name="party">部门id</param>
+            <param name="msgtp"></param>
+            <param name="safe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Message.Model.Message.CreateTagMessage(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            给制定标签发送消息
+            </summary>
+            <param name="agenid"></param>
+            <param name="Tag">标签名</param>
+            <param name="msgtp"></param>
+            <param name="safe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Message.Model.MyException.#ctor(System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="json"></param>
+            <param name="b">json数据</param>
+        </member>
+        <member name="P:Message.Model.User.userid">
+            <summary>
+            成员UserID。对应管理端的帐号，企业内必须唯一。
+            不区分大小写，长度为1~64个字节
+            是否必须：是
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.name">
+            <summary>
+            成员名称。长度为1~64个字符
+            是否必须：是
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.english_name">
+            <summary>
+            英文名。长度为1-64个字节，由字母、数字、点(.)、减号(-)、空格或下划线(_)组成
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.mobile">
+            <summary>
+            手机号码。企业内必须唯一，mobile/email二者不能同时为空
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.department">
+            <summary>
+            成员所属部门id列表,不超过20个
+            是否必须：是
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.order">
+            <summary>
+            部门内的排序值，默认为0，成员次序以创建时间从小到大排列。数量必须和department一致，数值越大排序越前面。
+            有效的值范围是[0, 2^32)
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.position">
+            <summary>
+            职位信息。长度为0~128个字符
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.gender">
+            <summary>
+            性别。1表示男性，2表示女性
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.email">
+            <summary>
+            邮箱。长度不超过64个字节，且为有效的email格式。
+            企业内必须唯一，mobile/email二者不能同时为空
+            是否必须：
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.telephone">
+            <summary>
+            座机。由1-32位的纯数字或’-‘号组成。
+            
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.isleader">
+            <summary>
+            上级字段，标识是否为上级。
+            在审批等应用里可以用来标识上级审批人
+            
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.avatar_mediaid">
+            <summary>
+            成员头像的mediaid，通过素材管理接口上传图片获得的mediaid
+            
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.enable">
+            <summary>
+            启用/禁用成员。1表示启用成员，0表示禁用成员
+            
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.extattr">
+            <summary>
+            自定义字段。自定义字段需要先在WEB管理端添加，见扩展属性添加方法，否则忽略未知属性的赋值。
+            自定义字段长度为0~32个字符，超过将被截断
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.to_invite">
+            <summary>
+            是否邀请该成员使用企业微信
+            （将通过微信服务通知或短信或邮件下发邀请，每天自动下发一次，最多持续3个工作日），
+            默认值为true。
+            </summary>
+        </member>
+        <member name="P:Message.Model.User.external_profile">
+            <summary>
+            成员对外属性，字段详情见对外属性
+            </summary>
+        </member>
+        <member name="T:Message.Model.Extattr">
+            <summary>
+            自定义字段
+            </summary>
+        </member>
+        <member name="P:Message.Model.Extattr.name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Message.Model.Extattr.value">
+            <summary>
+            数据
+            </summary>
+        </member>
+    </members>
+</doc>
